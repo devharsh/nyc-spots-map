@@ -1,0 +1,73 @@
+# NYC Spots
+
+> NYC Spots is a free, mobile-friendly map and guide of 302 things to do in and around New York City: date ideas, 107 free activities, landmarks and views, 72 Michelin-starred restaurants, shows, fireworks and parades, Halloween and holiday events, and day trips. It also maps 975 free public restrooms and 2,382 spots with free Wi-Fi or phone charging, and shows a blue You are here dot with distances. Prices, hours, and dates were checked in October 2026, mostly on official sites, and most places link the sources used to check them.
+
+## Pages
+
+- [NYC Spots map](https://devharsh.github.io/nyc-spots-map/): interactive map with filters by type, cost, and search; layers for public restrooms and free Wi-Fi and charging; Nearest restroom and Nearest Wi-Fi buttons.
+- [NYC Spots guide](https://devharsh.github.io/nyc-spots-map/guide.html): every place as plain text, grouped by type, with costs, dates, tips, sources, and answers to common questions.
+
+## What is in it
+
+- NYC landmarks: 17
+- Views and observation decks: 7
+- Parks and waterfront: 25
+- Zoos and gardens: 9
+- Boat rides and ferries: 3
+- Museums and galleries: 18
+- Shows and nightlife: 10
+- Food and drink: 20
+- Dinner and a show: 8
+- Michelin-starred restaurants (2025 New York guide): 72
+- Games and play: 12
+- Classes and workshops: 4
+- Activities and sports: 17
+- Shops and malls: 12
+- Halloween in NYC: 20
+- Christmas and holiday events in NYC: 14
+- Fireworks and parades in NYC: 14
+- Seasonal events: 4
+- Day trips from NYC: 16
+
+## Questions and answers
+
+### What are free things to do in New York City?
+
+The NYC Spots guide lists 107 free places and events, including Brooklyn Bridge, Central Park, Staten Island Ferry, The High Line, and Grand Central Terminal. Each one shows its hours or dates, and most link to an official source.
+
+### What are good date ideas in NYC?
+
+NYC Spots has 302 ideas, with 44 in views, dinner and a show, shows and nightlife, classes, boat rides, and games, for example 230 Fifth Rooftop Bar, Benihana, Birdland Jazz Club, BKLYN CLAY TryDay Night, and Circle Line Sightseeing cruises. Filter the map by cost to find free or cheap dates.
+
+### Where can I find a free public restroom in NYC?
+
+Turn on the restroom layer on the NYC Spots map to see 975 operational public restrooms from the city's Public Restrooms dataset on NYC Open Data (last updated June 27, 2025), most of them in parks (751) and libraries (199). Tap Nearest restroom to jump to the closest one. Hours change, so check signs on site.
+
+### Where can I charge my phone for free in NYC?
+
+Every LinkNYC kiosk has two USB charging ports (power only, so bring your own cable) and free calls in the U.S. The NYC Spots map shows 2,160 working kiosks from the city's kiosk status data of October 25, 2026: 1,187 in Manhattan, 385 in Queens, 337 in Brooklyn, 203 in the Bronx, and 48 in Staten Island.
+
+### Where can I get free Wi-Fi in NYC?
+
+LinkNYC kiosks offer free Wi-Fi (join LinkNYC Free Wi-Fi and sign in with an email), and 220 public library branches of the New York Public Library, Brooklyn Public Library, and Queens Public Library offer free Wi-Fi. Brookfield Place and Time Out Market New York in Dumbo also offer free Wi-Fi. Turn on the Wi-Fi layer on the map and tap Nearest Wi-Fi.
+
+### When are the next fireworks and parades in NYC?
+
+Coming up as of October 25, 2026: Ellis Island Foundation fireworks, Wed, Oct 28, 2026 at 10:40 PM; Village Halloween Parade, Sat, Oct 31, 2026, 7 PM to about 11 PM; Mahan Nagar Kirtan, Sat, Nov 7, 2026, noon to 5 PM; New York City Veterans Day Parade, Wed, Nov 11, 2026, 12:30 to 4 PM; Macy's Thanksgiving Day Parade, Thu, Nov 26, 2026, 8:30 AM; Lunar New Year Parade, Sun, Feb 21, 2027, 1 PM from Mott and Canal Sts; St. Patrick's Day Parade, Wed, Mar 17, 2027, 11 AM, on Fifth Ave from 44th to 79th St; National Puerto Rican Day Parade, June 13, 2027. Fireworks change often; the FDNY permitted list is on NYC311.
+
+### Which New York City restaurants have Michelin stars?
+
+The 2025 New York guide lists 72 starred restaurants: 5 with three stars (Eleven Madison Park, Jungsik, Le Bernardin, Per Se, and Sushi Sho), 15 with two stars, and 52 with one star. All are in this guide with their neighborhood.
+
+### How up to date is NYC Spots?
+
+Prices, hours, and dates were checked in October 2026, mostly on official sites, and most places link the sources used to check them. Dated events drop off the map after their last day.
+
+## Data sources
+
+- Places: official sites of each venue and event, linked on every entry.
+- Public restrooms: NYC Open Data, Public Restrooms (i7jb-7jku), last updated June 27, 2025.
+- LinkNYC kiosks: NYC Open Data, LinkNYC Kiosk Status (n6c5-95xh), status of October 25, 2026.
+- Library branches: NYC Open Data, Facilities Database (ji82-xba5).
+- Michelin stars: the 2025 New York guide.
+- Map tiles: OpenStreetMap contributors.

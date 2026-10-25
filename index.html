@@ -3,8 +3,27 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>NYC Spots Map</title>
-<meta name="description" content="A map of 302 places to go in and around New York City, with prices and dates checked in October 2026.">
+<title>NYC Spots: Things to Do, Date Ideas, Free Restrooms and Wi-Fi Map</title>
+<meta name="description" content="Free interactive NYC map: 302 things to do and date ideas, Michelin food, fireworks and parades, plus free public restrooms, Wi-Fi and phone charging near you.">
+<meta name="keywords" content="things to do in NYC, NYC date ideas, free things to do in NYC, free public restrooms NYC, free Wi-Fi NYC, free phone charging NYC, NYC fireworks, NYC parades, Michelin star restaurants NYC, Halloween in NYC, Christmas in NYC, day trips from NYC, NYC map">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://devharsh.github.io/nyc-spots-map/">
+<link rel="alternate" type="text/markdown" href="https://devharsh.github.io/nyc-spots-map/llms.txt" title="NYC Spots summary for AI tools">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="NYC Spots">
+<meta property="og:locale" content="en_US">
+<meta property="og:url" content="https://devharsh.github.io/nyc-spots-map/">
+<meta property="og:title" content="NYC Spots: Things to Do, Date Ideas, Free Restrooms and Wi-Fi Map">
+<meta property="og:description" content="302 things to do in New York City on one free map, with prices and dates checked October 2026, plus free public restrooms, Wi-Fi and phone charging near you.">
+<meta property="og:image" content="https://devharsh.github.io/nyc-spots-map/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="NYC Spots map of New York City with a list of places and colored pins">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="NYC Spots: Things to Do, Date Ideas, Free Restrooms and Wi-Fi Map">
+<meta name="twitter:description" content="302 things to do in New York City on one free map, plus free public restrooms, Wi-Fi and phone charging near you.">
+<meta name="twitter:image" content="https://devharsh.github.io/nyc-spots-map/og-image.png">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://devharsh.github.io/nyc-spots-map/#website","url":"https://devharsh.github.io/nyc-spots-map/","name":"NYC Spots","alternateName":"NYC Spots Map","inLanguage":"en-US","description":"Free map and guide of things to do in New York City, date ideas, free public restrooms, Wi-Fi, and phone charging."},{"@type":"WebApplication","@id":"https://devharsh.github.io/nyc-spots-map/#app","name":"NYC Spots Map","url":"https://devharsh.github.io/nyc-spots-map/","applicationCategory":"TravelApplication","operatingSystem":"Any web browser","isAccessibleForFree":true,"inLanguage":"en-US","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"dateModified":"2026-10-25","description":"Interactive map of 302 things to do in and around New York City with prices, dates, and sources, plus 975 public restrooms and 2,160 LinkNYC kiosks with free Wi-Fi and phone charging, and 220 library branches with free Wi-Fi.","featureList":["Things to do and date ideas","Free things to do","Michelin-starred restaurants","Fireworks and parades","Halloween and holiday events","Day trips","Free public restrooms","Free Wi-Fi","Free phone charging","You are here location with distances","Filters by type and cost"],"keywords":"things to do in NYC, NYC date ideas, free things to do in NYC, free public restrooms NYC, free Wi-Fi NYC, free phone charging NYC, NYC fireworks, NYC parades, Michelin star restaurants NYC","spatialCoverage":{"@type":"City","name":"New York City","geo":{"@type":"GeoCoordinates","latitude":40.7128,"longitude":-74.006}},"isPartOf":{"@id":"https://devharsh.github.io/nyc-spots-map/#website"},"subjectOf":{"@id":"https://devharsh.github.io/nyc-spots-map/guide.html#page"}}]}</script>
 <meta name="theme-color" content="#0D6A47">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230D6A47'/%3E%3Cpath d='M16 6c-4 0-7 3-7 7 0 5 7 13 7 13s7-8 7-13c0-4-3-7-7-7zm0 10a3 3 0 110-6 3 3 0 010 6z' fill='%23fff'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -130,6 +149,7 @@ details.soon summary { cursor: pointer; font-weight: 600; font-size: 13.5px; col
 .legend i { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
 .foot { padding: 6px 14px 16px; font-size: 12px; color: var(--muted); }
 .foot p { margin: 4px 0; }
+.foot .about { color: var(--ink); font-size: 12.5px; }
 .mono { font-family: var(--font-mono); }
 
 /* Wide or landscape: side panel */
@@ -217,6 +237,7 @@ details.soon summary { cursor: pointer; font-weight: 600; font-size: 13.5px; col
 </style>
 </head>
 <body>
+<noscript><p style="padding:16px;font:16px/1.5 system-ui,sans-serif">The NYC Spots map needs JavaScript. You can read every place in the <a href="guide.html">NYC Spots guide</a> instead.</p></noscript>
 <div id="app" data-sheet="peek">
   <div id="map" role="application" aria-label="Map of places"></div>
   <aside id="panel" aria-label="Places">
@@ -242,8 +263,9 @@ details.soon summary { cursor: pointer; font-weight: 600; font-size: 13.5px; col
       <ol id="list"></ol>
       <div class="legend" id="legend"></div>
       <div class="foot">
+        <p class="about">NYC Spots is a free map of things to do in and around New York City: date ideas, free activities, landmarks and views, Michelin-starred restaurants, shows, fireworks and parades, Halloween and holiday events, and day trips. It also shows free public restrooms and free Wi-Fi and phone charging near you. <a href="guide.html">Read the full guide</a>.</p>
         <p><span class="mono">Free</span>, <span class="mono">$</span> under $15, <span class="mono">$$</span> $15 to $40, <span class="mono">$$$</span> over $40: the cheapest regular way in for one adult.</p>
-        <p>Prices, hours, and dates were checked in October 2026, mostly on official sites, and each card links its sources. Confirm before you go.</p>
+        <p>Prices, hours, and dates were checked in October 2026, mostly on official sites, and most places link the sources used to check them. Confirm before you go.</p>
         <p>Restrooms: 975 operational public restrooms from <a href="https://data.cityofnewyork.us/Health/Public-Restrooms/i7jb-7jku" target="_blank" rel="noopener">NYC Open Data</a> (last updated June 27, 2025); hours and status change, so check signs on site. For more, try <a href="https://www.got2gonyc.com/about" target="_blank" rel="noopener">Got2GoNYC</a> or <a href="https://www.nyrestroom.com/" target="_blank" rel="noopener">NYRestroom</a>.</p>
         <p>Free Wi-Fi and charging: 2,160 working LinkNYC kiosks from the city's kiosk status data (<a href="https://data.cityofnewyork.us/City-Government/LinkNYC-Kiosk-Status/n6c5-95xh" target="_blank" rel="noopener">NYC Open Data</a>, October 25, 2026), each with free Wi-Fi, two USB charging ports, and free calls in the U.S. (<a href="https://www.link.nyc/faq.html" target="_blank" rel="noopener">LinkNYC FAQ</a>); 220 public library branches with free Wi-Fi (city Facilities Database, July 2026); and two spots whose own pages confirm free Wi-Fi. Bring your own cable.</p>
         <p>Fireworks change often; the FDNY's permitted list is on <a href="https://portal.311.nyc.gov/article/?kanumber=KA-01301" target="_blank" rel="noopener">NYC311</a>.</p>
@@ -612,7 +634,14 @@ $("#wf-near").addEventListener("click", nearestWifi);
 render(true);
 if (state.rr) setRestrooms(true);
 if (state.wf) setWifi(true);
-startLocate(true);
+/* Shareable links: ./#p-ID opens that place (used by the guide page) */
+function openFromHash() {
+  const m = location.hash.match(/^#p-([A-Za-z0-9]+)$/);
+  if (m && byId[m[1]]) { focusPlace(m[1]); return true; }
+  return false;
+}
+window.addEventListener("hashchange", openFromHash);
+startLocate(!openFromHash());
 </script>
 </body>
 </html>
