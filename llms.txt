@@ -1,6 +1,6 @@
 # NYC Spots
 
-> NYC Spots is a free, mobile-friendly map and guide of 386 things to do in and around New York City: date ideas, 139 free activities, landmarks and views, 72 Michelin-starred restaurants, shows, fireworks and parades, Halloween and holiday events, and day trips. It also maps 983 free public restrooms and 2,396 spots with free Wi-Fi or phone charging, and shows a blue You are here dot with distances. Prices, hours, and dates were checked in October 2026, mostly on official sites, and most places link the sources used to check them.
+> NYC Spots is a free, mobile-friendly map and guide of 429 things to do in and around New York City: date ideas, 149 free activities, landmarks and views, 72 Michelin-starred restaurants, shows, fireworks and parades, Halloween and holiday events, and day trips. It also maps 983 free public restrooms and 2,396 spots with free Wi-Fi or phone charging, and shows a blue You are here dot with distances. Prices, hours, and dates were checked in October 2026, mostly on official sites, and most places link the sources used to check them.
 
 ## Pages
 
@@ -9,22 +9,22 @@
 
 ## What is in it
 
-- NYC landmarks: 32
+- NYC landmarks: 36
 - Views and observation decks: 9
 - Parks and waterfront: 31
 - Zoos and gardens: 10
 - Boat rides and ferries: 3
-- Museums and galleries: 23
-- Shows and nightlife: 13
-- Food and drink: 33
+- Museums and galleries: 41
+- Shows and nightlife: 18
+- Food and drink: 42
 - Dinner and a show: 8
 - Michelin-starred restaurants (2025 New York guide): 72
 - Games and play: 17
 - Classes and workshops: 10
-- Activities and sports: 23
-- Shops and malls: 15
+- Activities and sports: 24
+- Shops and malls: 20
 - Halloween in NYC: 20
-- Christmas and holiday events in NYC: 21
+- Christmas and holiday events in NYC: 22
 - Fireworks and parades in NYC: 14
 - Seasonal events: 6
 - Day trips from NYC: 26
@@ -33,11 +33,11 @@
 
 ### What are free things to do in New York City?
 
-The NYC Spots guide lists 139 free places and events, including Brooklyn Bridge, Central Park, Staten Island Ferry, The High Line, and Grand Central Terminal. Each one shows its hours or dates, and most link to an official source.
+The NYC Spots guide lists 149 free places and events, including Brooklyn Bridge, Central Park, Staten Island Ferry, The High Line, and Grand Central Terminal. Each one shows its hours or dates, and most link to an official source.
 
 ### What are good date ideas in NYC?
 
-NYC Spots has 386 ideas, with 60 in views, dinner and a show, shows and nightlife, classes, boat rides, and games, for example 230 Fifth Rooftop Bar, Benihana, Birdland Jazz Club, Beginner Salsa 101 at Nieves Latin Dance Studio, and Circle Line Sightseeing cruises. Filter the map by cost to find free or cheap dates.
+NYC Spots has 429 ideas, with 65 in views, dinner and a show, shows and nightlife, classes, boat rides, and games, for example 230 Fifth Rooftop Bar, Benihana, Birdland Jazz Club, Beginner Salsa 101 at Nieves Latin Dance Studio, and Circle Line Sightseeing cruises. Filter the map by cost to find free or cheap dates.
 
 ### Where can I find a free public restroom in NYC?
 
@@ -51,6 +51,10 @@ Every LinkNYC kiosk has two USB charging ports (power only, so bring your own ca
 
 LinkNYC kiosks offer free Wi-Fi (join LinkNYC Free Wi-Fi and sign in with an email), and 230 public library branches of the New York Public Library, Brooklyn Public Library, Queens Public Library, and Jersey City Free Public Library offer free Wi-Fi. Brookfield Place Winter Garden, Time Out Market New York, World Trade Center Oculus, Moynihan Train Hall, Port Authority Bus Terminal, and Manhattan West plaza also offer free Wi-Fi. Turn on the Wi-Fi layer on the map and tap Nearest Wi-Fi.
 
+### Where can I buy loose-leaf tea or drink fresh-brewed chai in NYC?
+
+NYC Spots lists 9 spots for loose-leaf tea and scratch-made chai: Kolkata Chai Co. (60 Kenmare St (Nolita) and 199 E 3rd St (East Village)), Brooklyn Tea (411 Lewis Ave, Stuyvesant Heights, Bedford-Stuyvesant, Brooklyn), Sullivan Street Tea & Spice Company (208 Sullivan St, a couple of blocks south of Washington Square Park, Greenwich Village, Manhattan), Bellocq Tea Atelier (104 West St between Greenpoint Ave and Kent St, Greenpoint, Brooklyn), Harney & Sons SoHo Shop (433 Broome St, SoHo, Manhattan), Kalustyan's (123 Lexington Ave between E 28th and E 29th Sts, Curry Hill, Murray Hill, Manhattan), Porto Rico Importing Co. (201 Bleecker St, Greenwich Village, Manhattan), Té Company (163 W 10th St, West Village, Manhattan), and Hidden Grounds Chai & Coffee House (36 Third Ave between E 9th and E 10th Sts, East Village, Manhattan). Each entry has its hours, prices, and sources.
+
 ### Where can I get free drinking water near Times Square?
 
 Turn on the water layer on the NYC Spots map, or tap Nearest water, to see 1,485 drinking fountain sites within 10 km (6.2 miles) of Times Square: 1,454 from the NYC Parks drinking fountain data (last updated July 15, 2024) and 31 in Hoboken, Jersey City, and nearby New Jersey towns from OpenStreetMap and a Hoboken Girl guide; 84 have a bottle filler. NYC Parks turns most outdoor fountains off for much of the fall and winter so the pipes do not freeze; 182 are indoors in park buildings and work when the building is open.
@@ -61,7 +65,7 @@ Yes, for now. The City Council voted on Oct 22, 2026 to end horse-drawn carriage
 
 ### What are indoor things to do in NYC on a rainy or cold day?
 
-Use the Indoor filter on the NYC Spots map: 273 places are fully or partly indoors, such as museums, shows, food halls, classes, and games. The Outdoor filter shows 169 places, such as parks, views, and walks.
+Use the Indoor filter on the NYC Spots map: 313 places are fully or partly indoors, such as museums, shows, food halls, classes, and games. The Outdoor filter shows 177 places, such as parks, views, and walks.
 
 ### When are the next fireworks and parades in NYC?
 
@@ -70,6 +74,10 @@ Coming up as of October 26, 2026: Ellis Island Foundation fireworks, Wed, Oct 28
 ### Which New York City restaurants have Michelin stars?
 
 The 2025 New York guide lists 72 starred restaurants: 5 with three stars (Eleven Madison Park, Jungsik, Le Bernardin, Per Se, and Sushi Sho), 15 with two stars, and 52 with one star. All are in this guide with their neighborhood.
+
+### How do I brew loose-leaf tea without a tea bag?
+
+Senbird Tea (December 4, 2024) suggests five ways: set a rinsed coffee filter or paper towel over your mug, add the leaves, and pour the water through; steep the leaves in a pot and pour through a kitchen sieve; steep them in a mason jar and pour the tea off the leaves; fold a foil pouch with small holes around the leaves; or steep herbal teas such as sobacha right in the cup.
 
 ### How up to date is NYC Spots?
 
