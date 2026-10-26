@@ -4,7 +4,7 @@
 
 ## Pages
 
-- [NYC Spots map](https://devharsh.github.io/nyc-spots-map/): interactive map with filters by type, cost, and search; layers for public restrooms and free Wi-Fi and charging; Nearest restroom and Nearest Wi-Fi buttons.
+- [NYC Spots map](https://devharsh.github.io/nyc-spots-map/): interactive map with filters by type, cost, indoor or outdoor, and search; layers for public restrooms, free Wi-Fi and charging, Citi Bike stations with live bikes and docks, and Central Park horse carriage stands; Nearest restroom, Wi-Fi, and bike buttons.
 - [NYC Spots guide](https://devharsh.github.io/nyc-spots-map/guide.html): every place as plain text, grouped by type, with costs, dates, tips, sources, and answers to common questions.
 
 ## What is in it
@@ -51,6 +51,18 @@ Every LinkNYC kiosk has two USB charging ports (power only, so bring your own ca
 
 LinkNYC kiosks offer free Wi-Fi (join LinkNYC Free Wi-Fi and sign in with an email), and 230 public library branches of the New York Public Library, Brooklyn Public Library, Queens Public Library, and Jersey City Free Public Library offer free Wi-Fi. Brookfield Place Winter Garden, Time Out Market New York, World Trade Center Oculus, Moynihan Train Hall, Port Authority Bus Terminal, and Manhattan West plaza also offer free Wi-Fi. Turn on the Wi-Fi layer on the map and tap Nearest Wi-Fi.
 
+### Where can I rent a Citi Bike in NYC, and how much does it cost?
+
+Turn on the Citi Bike layer on the NYC Spots map to see 2,468 stations (2,360 in New York City, 77 in Jersey City, and 31 in Hoboken) from Citi Bike's public station feed of October 25, 2026. Tap a station for live bikes, e-bikes, and open docks, or tap Nearest bike. Single ride: $4.99 for up to 30 minutes on a classic bike, then $0.41 a minute. E-bike: $4.99 to unlock plus $0.41 a minute. Day pass: $25 for unlimited 30-minute classic rides in 24 hours (citibikenyc.com, checked Oct 26, 2026).
+
+### Can you still take a horse carriage ride in Central Park?
+
+Yes, for now. The City Council voted on Oct 22, 2026 to end horse-drawn carriage rides by June 1, 2028. Carriages line up inside the park at East Drive at Grand Army Plaza, Center Drive at Sixth Avenue, and West Drive at Seventh Avenue, per the Central Park Conservancy. The city's maximum fare is up to $72.22 for the first 20 minutes, then up to $28.89 for each extra 10 minutes, per carriage (city maximum since May 3, 2025); tip not included. Rides start at 10 AM on weekdays and 9 AM on weekends, and horses go back to the stable at 90 F or hotter and at 18 F or colder.
+
+### What are indoor things to do in NYC on a rainy or cold day?
+
+Use the Indoor filter on the NYC Spots map: 218 places are fully or partly indoors, such as museums, shows, food halls, classes, and games. The Outdoor filter shows 129 places, such as parks, views, and walks.
+
 ### When are the next fireworks and parades in NYC?
 
 Coming up as of October 26, 2026: Ellis Island Foundation fireworks, Wed, Oct 28, 2026 at 10:40 PM; Village Halloween Parade, Sat, Oct 31, 2026, 7 PM to about 11 PM; Mahan Nagar Kirtan, Sat, Nov 7, 2026, noon to 5 PM; New York City Veterans Day Parade, Wed, Nov 11, 2026, 12:30 to 4 PM; Macy's Thanksgiving Day Parade, Thu, Nov 26, 2026, 8:30 AM; Lunar New Year Parade, Sun, Feb 21, 2027, 1 PM from Mott and Canal Sts; St. Patrick's Day Parade, Wed, Mar 17, 2027, 11 AM, on Fifth Ave from 44th to 79th St; National Puerto Rican Day Parade, June 13, 2027. Fireworks change often; the FDNY permitted list is on NYC311.
@@ -71,5 +83,7 @@ Prices, hours, and dates were checked in October 2026, mostly on official sites,
 - Library branches: NYC Open Data, Facilities Database (ji82-xba5).
 - Jersey City library branches and Wi-Fi: jclibrary.org.
 - Hand-checked restrooms and Wi-Fi near Times Square: the Port Authority World Trade Center page, Moynihan Train Hall, Manhattan West, NJ Transit, NJ State Parks, NYC City Planning's POPS list, and the Wanderu Port Authority Bus Terminal guide.
+- Citi Bike stations and live availability: Citi Bike's public GBFS feeds (station feed of October 25, 2026); prices from citibikenyc.com/pricing.
+- Horse carriages: Central Park Conservancy (pick-up lines), NYC Department of Consumer and Worker Protection (maximum fares), City and State New York (October 22, 2026 Council vote).
 - Michelin stars: the 2025 New York guide.
 - Map tiles: OpenStreetMap contributors.
