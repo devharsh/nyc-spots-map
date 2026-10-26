@@ -10,8 +10,8 @@ NYC Spots is a free, mobile-friendly map and guide of things to do in and around
 
 - See where you are: allow location access to get a blue You are here dot and distances to every place. Your location stays in your browser.
 - Find things to do: filter by type, by cost (Free, $, $$, $$$), or by a search word, and tap a pin or a list item for details and directions.
-- Find a free public restroom: turn on the WC layer or tap Nearest restroom. Restrooms come from the city's Public Restrooms dataset on NYC Open Data.
-- Find free Wi-Fi and phone charging: turn on the Wi-Fi layer or tap Nearest Wi-Fi. It shows working LinkNYC kiosks from the city's kiosk status data (free Wi-Fi, two USB charging ports, free calls in the U.S.), public library branches with free Wi-Fi, and two spots whose own pages confirm free Wi-Fi.
+- Find a free public restroom: turn on the WC layer or tap Nearest restroom. Restrooms come from the city's Public Restrooms dataset on NYC Open Data, plus a few near Times Square checked by hand (transit hubs, a plaza, Hoboken Terminal, Liberty State Park).
+- Find free Wi-Fi and phone charging: turn on the Wi-Fi layer or tap Nearest Wi-Fi. It shows working LinkNYC kiosks from the city's kiosk status data (free Wi-Fi, two USB charging ports, free calls in the U.S.), public library branches with free Wi-Fi (New York City plus 10 Jersey City branches), and places whose own pages confirm free Wi-Fi, such as the Oculus, Moynihan Train Hall, Port Authority Bus Terminal, and Manhattan West.
 - Plan ahead: the Coming up list shows dated events such as fireworks, parades, and holiday shows. Events hide themselves after their last day.
 - Share a place: links like https://devharsh.github.io/nyc-spots-map/#p-L10 open that place on the map.
 
