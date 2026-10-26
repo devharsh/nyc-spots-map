@@ -4,7 +4,7 @@
 
 ## Pages
 
-- [NYC Spots map](https://devharsh.github.io/nyc-spots-map/): interactive map with filters by type, cost, indoor or outdoor, and search; layers for public restrooms, free Wi-Fi and charging, Citi Bike stations with live bikes and docks, and Central Park horse carriage stands; Nearest restroom, Wi-Fi, and bike buttons.
+- [NYC Spots map](https://devharsh.github.io/nyc-spots-map/): interactive map with filters by type, cost, indoor or outdoor, and search; layers for public restrooms, free Wi-Fi and charging, free drinking water, and Central Park horse carriage stands; Nearest restroom, Wi-Fi, and water buttons.
 - [NYC Spots guide](https://devharsh.github.io/nyc-spots-map/guide.html): every place as plain text, grouped by type, with costs, dates, tips, sources, and answers to common questions.
 
 ## What is in it
@@ -51,9 +51,9 @@ Every LinkNYC kiosk has two USB charging ports (power only, so bring your own ca
 
 LinkNYC kiosks offer free Wi-Fi (join LinkNYC Free Wi-Fi and sign in with an email), and 230 public library branches of the New York Public Library, Brooklyn Public Library, Queens Public Library, and Jersey City Free Public Library offer free Wi-Fi. Brookfield Place Winter Garden, Time Out Market New York, World Trade Center Oculus, Moynihan Train Hall, Port Authority Bus Terminal, and Manhattan West plaza also offer free Wi-Fi. Turn on the Wi-Fi layer on the map and tap Nearest Wi-Fi.
 
-### Where can I rent a Citi Bike in NYC, and how much does it cost?
+### Where can I get free drinking water near Times Square?
 
-Turn on the Citi Bike layer on the NYC Spots map to see 2,468 stations (2,360 in New York City, 77 in Jersey City, and 31 in Hoboken) from Citi Bike's public station feed of October 25, 2026. Tap a station for live bikes, e-bikes, and open docks, or tap Nearest bike. Single ride: $4.99 for up to 30 minutes on a classic bike, then $0.41 a minute. E-bike: $4.99 to unlock plus $0.41 a minute. Day pass: $25 for unlimited 30-minute classic rides in 24 hours (citibikenyc.com, checked Oct 26, 2026).
+Turn on the water layer on the NYC Spots map, or tap Nearest water, to see 1,454 NYC Parks drinking fountain sites within 10 km (6.2 miles) of Times Square, 83 of them with a bottle filler, from the city's drinking fountain data (last updated July 15, 2024). NYC Parks turns most outdoor fountains off for much of the fall and winter so the pipes do not freeze; 182 are indoors in park buildings and work when the building is open.
 
 ### Can you still take a horse carriage ride in Central Park?
 
@@ -81,9 +81,9 @@ Prices, hours, and dates were checked in October 2026, mostly on official sites,
 - Public restrooms: NYC Open Data, Public Restrooms (i7jb-7jku), last updated June 27, 2025.
 - LinkNYC kiosks: NYC Open Data, LinkNYC Kiosk Status (n6c5-95xh), status of October 25, 2026.
 - Library branches: NYC Open Data, Facilities Database (ji82-xba5).
+- Drinking fountains: NYC Open Data, NYC Parks Drinking Fountains (qnv7-p7a2), last updated July 15, 2024.
 - Jersey City library branches and Wi-Fi: jclibrary.org.
 - Hand-checked restrooms and Wi-Fi near Times Square: the Port Authority World Trade Center page, Moynihan Train Hall, Manhattan West, NJ Transit, NJ State Parks, NYC City Planning's POPS list, and the Wanderu Port Authority Bus Terminal guide.
-- Citi Bike stations and live availability: Citi Bike's public GBFS feeds (station feed of October 25, 2026); prices from citibikenyc.com/pricing.
 - Horse carriages: Central Park Conservancy (pick-up lines), NYC Department of Consumer and Worker Protection (maximum fares), City and State New York (October 22, 2026 Council vote).
 - Michelin stars: the 2025 New York guide.
 - Map tiles: OpenStreetMap contributors.
