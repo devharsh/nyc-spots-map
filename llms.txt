@@ -1,6 +1,6 @@
 # NYC Spots
 
-> NYC Spots is a free, mobile-friendly map and guide of 302 things to do in and around New York City: date ideas, 107 free activities, landmarks and views, 72 Michelin-starred restaurants, shows, fireworks and parades, Halloween and holiday events, and day trips. It also maps 975 free public restrooms and 2,382 spots with free Wi-Fi or phone charging, and shows a blue You are here dot with distances. Prices, hours, and dates were checked in October 2026, mostly on official sites, and most places link the sources used to check them.
+> NYC Spots is a free, mobile-friendly map and guide of 302 things to do in and around New York City: date ideas, 107 free activities, landmarks and views, 72 Michelin-starred restaurants, shows, fireworks and parades, Halloween and holiday events, and day trips. It also maps 983 free public restrooms and 2,396 spots with free Wi-Fi or phone charging, and shows a blue You are here dot with distances. Prices, hours, and dates were checked in October 2026, mostly on official sites, and most places link the sources used to check them.
 
 ## Pages
 
@@ -41,7 +41,7 @@ NYC Spots has 302 ideas, with 44 in views, dinner and a show, shows and nightlif
 
 ### Where can I find a free public restroom in NYC?
 
-Turn on the restroom layer on the NYC Spots map to see 975 operational public restrooms from the city's Public Restrooms dataset on NYC Open Data (last updated June 27, 2025), most of them in parks (751) and libraries (199). Tap Nearest restroom to jump to the closest one. Hours change, so check signs on site.
+Turn on the restroom layer on the NYC Spots map to see 983 public restrooms: 975 operational restrooms from the city's Public Restrooms dataset on NYC Open Data (last updated June 27, 2025), most of them in parks (751) and libraries (199), plus 8 checked by hand near Times Square, including 60 Wall Street POPS, World Trade Center Oculus, Moynihan Train Hall, Port Authority Bus Terminal, and Manhattan West plaza. Tap Nearest restroom to jump to the closest one. Hours change, so check signs on site.
 
 ### Where can I charge my phone for free in NYC?
 
@@ -49,11 +49,11 @@ Every LinkNYC kiosk has two USB charging ports (power only, so bring your own ca
 
 ### Where can I get free Wi-Fi in NYC?
 
-LinkNYC kiosks offer free Wi-Fi (join LinkNYC Free Wi-Fi and sign in with an email), and 220 public library branches of the New York Public Library, Brooklyn Public Library, and Queens Public Library offer free Wi-Fi. Brookfield Place and Time Out Market New York in Dumbo also offer free Wi-Fi. Turn on the Wi-Fi layer on the map and tap Nearest Wi-Fi.
+LinkNYC kiosks offer free Wi-Fi (join LinkNYC Free Wi-Fi and sign in with an email), and 230 public library branches of the New York Public Library, Brooklyn Public Library, Queens Public Library, and Jersey City Free Public Library offer free Wi-Fi. Brookfield Place Winter Garden, Time Out Market New York, World Trade Center Oculus, Moynihan Train Hall, Port Authority Bus Terminal, and Manhattan West plaza also offer free Wi-Fi. Turn on the Wi-Fi layer on the map and tap Nearest Wi-Fi.
 
 ### When are the next fireworks and parades in NYC?
 
-Coming up as of October 25, 2026: Ellis Island Foundation fireworks, Wed, Oct 28, 2026 at 10:40 PM; Village Halloween Parade, Sat, Oct 31, 2026, 7 PM to about 11 PM; Mahan Nagar Kirtan, Sat, Nov 7, 2026, noon to 5 PM; New York City Veterans Day Parade, Wed, Nov 11, 2026, 12:30 to 4 PM; Macy's Thanksgiving Day Parade, Thu, Nov 26, 2026, 8:30 AM; Lunar New Year Parade, Sun, Feb 21, 2027, 1 PM from Mott and Canal Sts; St. Patrick's Day Parade, Wed, Mar 17, 2027, 11 AM, on Fifth Ave from 44th to 79th St; National Puerto Rican Day Parade, June 13, 2027. Fireworks change often; the FDNY permitted list is on NYC311.
+Coming up as of October 26, 2026: Ellis Island Foundation fireworks, Wed, Oct 28, 2026 at 10:40 PM; Village Halloween Parade, Sat, Oct 31, 2026, 7 PM to about 11 PM; Mahan Nagar Kirtan, Sat, Nov 7, 2026, noon to 5 PM; New York City Veterans Day Parade, Wed, Nov 11, 2026, 12:30 to 4 PM; Macy's Thanksgiving Day Parade, Thu, Nov 26, 2026, 8:30 AM; Lunar New Year Parade, Sun, Feb 21, 2027, 1 PM from Mott and Canal Sts; St. Patrick's Day Parade, Wed, Mar 17, 2027, 11 AM, on Fifth Ave from 44th to 79th St; National Puerto Rican Day Parade, June 13, 2027. Fireworks change often; the FDNY permitted list is on NYC311.
 
 ### Which New York City restaurants have Michelin stars?
 
@@ -69,5 +69,7 @@ Prices, hours, and dates were checked in October 2026, mostly on official sites,
 - Public restrooms: NYC Open Data, Public Restrooms (i7jb-7jku), last updated June 27, 2025.
 - LinkNYC kiosks: NYC Open Data, LinkNYC Kiosk Status (n6c5-95xh), status of October 25, 2026.
 - Library branches: NYC Open Data, Facilities Database (ji82-xba5).
+- Jersey City library branches and Wi-Fi: jclibrary.org.
+- Hand-checked restrooms and Wi-Fi near Times Square: the Port Authority World Trade Center page, Moynihan Train Hall, Manhattan West, NJ Transit, NJ State Parks, NYC City Planning's POPS list, and the Wanderu Port Authority Bus Terminal guide.
 - Michelin stars: the 2025 New York guide.
 - Map tiles: OpenStreetMap contributors.
