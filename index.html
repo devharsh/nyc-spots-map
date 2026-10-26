@@ -286,7 +286,7 @@ details.soon summary { cursor: pointer; font-weight: 600; font-size: 13.5px; col
         <p>Prices, hours, and dates were checked in October 2026, mostly on official sites, and most places link the sources used to check them. Confirm before you go.</p>
         <p>Restrooms: 983 public restrooms. 975 are operational restrooms from <a href="https://data.cityofnewyork.us/Health/Public-Restrooms/i7jb-7jku" target="_blank" rel="noopener">NYC Open Data</a> (last updated June 27, 2025); 8 more near Times Square (transit hubs, a plaza, and Hoboken and Jersey City) were checked by hand on their operators' pages, and each says where it came from. Hours and status change, so check signs on site. For more, try <a href="https://www.got2gonyc.com/about" target="_blank" rel="noopener">Got2GoNYC</a> or <a href="https://www.nyrestroom.com/" target="_blank" rel="noopener">NYRestroom</a>.</p>
         <p>Free Wi-Fi and charging: 2,160 working LinkNYC kiosks from the city's kiosk status data (<a href="https://data.cityofnewyork.us/City-Government/LinkNYC-Kiosk-Status/n6c5-95xh" target="_blank" rel="noopener">NYC Open Data</a>, October 25, 2026), each with free Wi-Fi, two USB charging ports, and free calls in the U.S. (<a href="https://www.link.nyc/faq.html" target="_blank" rel="noopener">LinkNYC FAQ</a>); 230 public library branches with free Wi-Fi (New York branches from the city Facilities Database, July 2026, plus 10 Jersey City branches from <a href="https://jclibrary.org/" target="_blank" rel="noopener">jclibrary.org</a>); and 6 places whose own pages confirm free Wi-Fi, including the Oculus, Moynihan Train Hall, Port Authority Bus Terminal, and Manhattan West. Bring your own cable.</p>
-        <p>Free drinking water: 1,454 NYC Parks drinking fountain sites within 10 km (6.2 mi) of Times Square, 83 with a bottle filler, from the city's <a href="https://data.cityofnewyork.us/Environment/NYC-Parks-Drinking-Fountains/qnv7-p7a2" target="_blank" rel="noopener">drinking fountain data</a> (last updated July 15, 2024). NYC Parks turns most outdoor fountains off for much of the fall and winter so the pipes do not freeze (<a href="https://www.prospectpark.org/prospect-parks-new-freeze-resistant-fountains/" target="_blank" rel="noopener">Prospect Park Alliance</a>; NYC Parks at a City Council hearing, April 23, 2025); 182 are indoors in park buildings.</p>
+        <p>Free drinking water: 1,485 drinking fountain sites within 10 km (6.2 mi) of Times Square: 1,454 from the NYC Parks <a href="https://data.cityofnewyork.us/Environment/NYC-Parks-Drinking-Fountains/qnv7-p7a2" target="_blank" rel="noopener">drinking fountain data</a> (last updated July 15, 2024), 29 in Hoboken, Jersey City, and nearby towns mapped by <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> volunteers (collected October 26, 2026), and 2 more named by <a href="https://hobokengirl.com/public-bathrooms-water-fountains-hoboken-jersey-city" target="_blank" rel="noopener">Hoboken Girl</a>; 84 have a bottle filler. NYC Parks turns most outdoor fountains off for much of the fall and winter so the pipes do not freeze (<a href="https://www.prospectpark.org/prospect-parks-new-freeze-resistant-fountains/" target="_blank" rel="noopener">Prospect Park Alliance</a>; NYC Parks at a City Council hearing, April 23, 2025); 182 are indoors in park buildings.</p>
         
         <p>Horse carriages: the three Central Park pick-up lines named by the <a href="https://www.centralparknyc.org/activities/horse-carriages" target="_blank" rel="noopener">Central Park Conservancy</a>, with the city's maximum fare. The City Council voted on October 22, 2026 to end carriage rides by June 1, 2028.</p>
         <p>Indoor or outdoor: each place is tagged by where most of the visit happens; places with both, such as zoos and gardens with greenhouses, show in both filters.</p>
@@ -503,12 +503,20 @@ function wtPopup(r) {
   const d = youPos ? ` &middot; ${away(miles(youPos, { lat, lng }))}` : "";
   const kind = flags & 2 ? "Bottle filler and fountain" : "Drinking fountain";
   const extra = [flags & 4 ? "dog bowl" : "", n > 1 ? `${n} spouts` : ""].filter(Boolean).join(", ");
-  const season = flags & 1 ? "Indoors, in a park building: usable only while the building is open" + (flags & 8 ? "; NYC Parks says recreation center facilities need a membership (free for ages 24 and under)" : "")
+  const nj = flags & 48;
+  const season = nj ? (flags & 1 ? "Indoors, during store hours" : "Outdoor fountains are often shut off in cold months; check that it is running")
+    : flags & 1 ? "Indoors, in a park building: usable only while the building is open" + (flags & 8 ? "; NYC Parks says recreation center facilities need a membership (free for ages 24 and under)" : "")
     : "Outdoors: NYC Parks turns most outdoor fountains off for much of the fall and winter so pipes do not freeze";
+  const src = flags & 16 ? `<a href="${esc(r[5])}" target="_blank" rel="noopener">OpenStreetMap</a>`
+    : flags & 32 ? `<a href="${esc(r[5])}" target="_blank" rel="noopener">Source</a>`
+    : `<a href="${esc(wtInfo.source)}" target="_blank" rel="noopener">City data</a>`;
+  const note = flags & 16 ? `Mapped by OpenStreetMap volunteers${r[6] ? ", last checked by a mapper on " + esc(longDate(r[6])) : ""}; not city data, so check that it is running.`
+    : flags & 32 ? "Named in Hoboken Girl's restroom and water fountain guide (updated April 2, 2026)."
+    : `NYC Parks fountain data, last updated ${esc(longDate(wtInfo.data_date))}; check that it is running.`;
   return `<div class="pop"><h3>${kind}</h3><p class="where">${esc(park)}${d}</p>
     <dl><dt>Cost</dt><dd>Free${extra ? " &middot; " + esc(extra) : ""}</dd><dt>When</dt><dd>${season}</dd></dl>
-    <p class="links"><a href="https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}&travelmode=walking" target="_blank" rel="noopener">Directions</a><a href="${esc(wtInfo.source)}" target="_blank" rel="noopener">City data</a></p>
-    <p class="note">NYC Parks fountain data, last updated ${esc(longDate(wtInfo.data_date))}; check that it is running.</p></div>`;
+    <p class="links"><a href="https://www.google.com/maps/dir/?api=1&destination=${lat},${lng}&travelmode=walking" target="_blank" rel="noopener">Directions</a>${src}</p>
+    <p class="note">${note}</p></div>`;
 }
 function setWater(on) {
   state.wt = on;
