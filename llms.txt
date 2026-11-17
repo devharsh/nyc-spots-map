@@ -1,6 +1,6 @@
 # NYC Spots
 
-> NYC Spots is a free, mobile-friendly map and guide of 419 things to do in and around New York City: date ideas, 143 free activities, landmarks and views, 72 Michelin-starred restaurants, shows, fireworks and parades, Halloween and holiday events, and day trips. It also maps 983 free public restrooms and 2,396 spots with free Wi-Fi or phone charging, and shows a blue You are here dot with distances. Prices, hours, and dates were checked in November 2026, mostly on official sites, and most places link the sources used to check them.
+> NYC Spots is a free, mobile-friendly map and guide of 418 things to do in and around New York City: date ideas, 143 free activities, landmarks and views, 72 Michelin-starred restaurants, shows, fireworks and parades, Halloween and holiday events, and day trips. It also maps 983 free public restrooms and 236 spots with free Wi-Fi or phone charging, and shows a blue You are here dot with distances. Prices, hours, and dates were checked in November 2026, mostly on official sites, and most places link the sources used to check them.
 
 ## Pages
 
@@ -22,10 +22,10 @@
 - Games and play: 17
 - Classes and workshops: 10
 - Activities and sports: 24
-- Shops and malls: 20
-- Halloween in NYC: 6
+- Shops and malls: 21
+- Halloween in NYC: 5
 - Christmas and holiday events in NYC: 22
-- Fireworks and parades in NYC: 12
+- Fireworks and parades in NYC: 11
 - Seasonal events: 6
 - Day trips from NYC: 26
 
@@ -37,7 +37,7 @@ The NYC Spots guide lists 143 free places and events, including Brooklyn Bridge,
 
 ### What are good date ideas in NYC?
 
-NYC Spots has 419 ideas, with 65 in views, dinner and a show, shows and nightlife, classes, boat rides, and games, for example 230 Fifth Rooftop Bar, Benihana, Birdland Jazz Club, Beginner Salsa 101 at Nieves Latin Dance Studio, and Circle Line Sightseeing cruises. Filter the map by cost to find free or cheap dates.
+NYC Spots has 418 ideas, with 65 in views, dinner and a show, shows and nightlife, classes, boat rides, and games, for example 230 Fifth Rooftop Bar, Benihana, Birdland Jazz Club, Beginner Salsa 101 at Nieves Latin Dance Studio, and Circle Line Sightseeing cruises. Filter the map by cost to find free or cheap dates.
 
 ### Where can I find a free public restroom in NYC?
 
@@ -59,6 +59,10 @@ NYC Spots lists 9 spots for loose-leaf tea and scratch-made chai: Kolkata Chai C
 
 Yes. NYC Spots lists 6 home cooks who serve guests from their apartments or sell in weekly online drops: Golden Cat (A chef's apartment in the Financial District, Manhattan), Munch NYC (Chef Munch) (Pickup at 201 W 93rd St, Upper West Side, Manhattan), Quipe Supremo (369 Bedford Park Blvd at Decatur Ave, Bedford Park, Bronx), The Haveli: A Mewar Table (A private home in Queens), Knead Pizzeria (Brooklyn), and Selera Kitchen by Shandra (Astoria, Queens, for workshops). Most share the address only after you book, so reserve or order ahead through the link in each entry.
 
+### What is a good one-day NYC holiday itinerary with little walking?
+
+Holiday highlights in one day, with little walking: 8 to 9 AM, Times Square and breakfast; 9 to 10:30 AM, 9/11 Memorial and the Oculus; 10:30 to 11:30 AM, Grand Central Terminal; 11:30 AM to 1 PM, Bryant Park Winter Village and lunch; 1 to 1:45 PM, Macy's Herald Square windows; 1:45 to 4:45 PM, Rockefeller Center and Fifth Avenue; 4:45 to 7:30 PM, Canal Street shopping; 7:30 to 8:15 PM, Dinner in Chinatown or Little Italy; 8:15 to 9 PM, Back to 42nd St and 8th Ave. Each stop links to its entry, with short subway rides between them.
+
 ### Where can I get free drinking water near Times Square?
 
 Turn on the water layer on the NYC Spots map, or tap Nearest water, to see 1,485 drinking fountain sites within 10 km (6.2 miles) of Times Square: 1,454 from the NYC Parks drinking fountain data (last updated July 15, 2024) and 31 in Hoboken, Jersey City, and nearby New Jersey towns from OpenStreetMap and a Hoboken Girl guide; 84 have a bottle filler. NYC Parks turns most outdoor fountains off for much of the fall and winter so the pipes do not freeze; 182 are indoors in park buildings and work when the building is open.
@@ -69,11 +73,11 @@ Yes, for now. The City Council voted on Oct 22, 2026 to end horse-drawn carriage
 
 ### What are indoor things to do in NYC on a rainy or cold day?
 
-Use the Indoor filter on the NYC Spots map: 308 places are fully or partly indoors, such as museums, shows, food halls, classes, and games. The Outdoor filter shows 171 places, such as parks, views, and walks.
+Use the Indoor filter on the NYC Spots map: 309 places are fully or partly indoors, such as museums, shows, food halls, classes, and games. The Outdoor filter shows 170 places, such as parks, views, and walks.
 
 ### When are the next fireworks and parades in NYC?
 
-Coming up as of November 8, 2026: New York City Veterans Day Parade, Wed, Nov 11, 2026, 12:30 to 4 PM; Macy's Thanksgiving Day Parade, Thu, Nov 26, 2026, 8:30 AM; Lunar New Year Parade, Sun, Feb 21, 2027, 1 PM from Mott and Canal Sts; St. Patrick's Day Parade, Wed, Mar 17, 2027, 11 AM, on Fifth Ave from 44th to 79th St; National Puerto Rican Day Parade, June 13, 2027; German-American Steuben Parade, Sat, Sep 18, 2027 at noon (anticipated date). Fireworks change often; the FDNY permitted list is on NYC311.
+Coming up as of November 17, 2026: Macy's Thanksgiving Day Parade, Thu, Nov 26, 2026, 8:30 AM; Lunar New Year Parade, Sun, Feb 21, 2027, 1 PM from Mott and Canal Sts; St. Patrick's Day Parade, Wed, Mar 17, 2027, 11 AM, on Fifth Ave from 44th to 79th St; National Puerto Rican Day Parade, June 13, 2027; German-American Steuben Parade, Sat, Sep 18, 2027 at noon (anticipated date). Fireworks change often; the FDNY permitted list is on NYC311.
 
 ### Which New York City restaurants have Michelin stars?
 
