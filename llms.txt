@@ -1,6 +1,6 @@
 # NYC Spots
 
-> NYC Spots is a free, mobile-friendly map and guide of 420 things to do in and around New York City: date ideas, 145 free activities, landmarks and views, 72 Michelin-starred restaurants, shows, fireworks and parades, Halloween and holiday events, and day trips. It also maps 983 free public restrooms and 2,396 spots with free Wi-Fi or phone charging, and shows a blue You are here dot with distances. Prices, hours, and dates were checked in November 2026, mostly on official sites, and most places link the sources used to check them.
+> NYC Spots is a free, mobile-friendly map and guide of 423 things to do in and around New York City: date ideas, 148 free activities, landmarks and views, 72 Michelin-starred restaurants, shows, fireworks and parades, Halloween and holiday events, and day trips. It also maps 983 free public restrooms and 2,396 spots with free Wi-Fi or phone charging, and shows a blue You are here dot with distances. Prices, hours, and dates were checked in November 2026, mostly on official sites, and most places link the sources used to check them.
 
 ## Pages
 
@@ -24,7 +24,7 @@
 - Activities and sports: 24
 - Shops and malls: 21
 - Halloween in NYC: 5
-- Christmas and holiday events in NYC: 23
+- Christmas and holiday events in NYC: 26
 - Fireworks and parades in NYC: 11
 - Seasonal events: 6
 - Day trips from NYC: 26
@@ -33,11 +33,11 @@
 
 ### What are free things to do in New York City?
 
-The NYC Spots guide lists 145 free places and events, including Brooklyn Bridge, Central Park, Staten Island Ferry, The High Line, and Grand Central Terminal. Each one shows its hours or dates, and most link to an official source.
+The NYC Spots guide lists 148 free places and events, including Brooklyn Bridge, Central Park, Staten Island Ferry, The High Line, and Grand Central Terminal. Each one shows its hours or dates, and most link to an official source.
 
 ### What are good date ideas in NYC?
 
-NYC Spots has 420 ideas, with 65 in views, dinner and a show, shows and nightlife, classes, boat rides, and games, for example 230 Fifth Rooftop Bar, Benihana, Birdland Jazz Club, Beginner Salsa 101 at Nieves Latin Dance Studio, and Circle Line Sightseeing cruises. Filter the map by cost to find free or cheap dates.
+NYC Spots has 423 ideas, with 65 in views, dinner and a show, shows and nightlife, classes, boat rides, and games, for example 230 Fifth Rooftop Bar, Benihana, Birdland Jazz Club, Beginner Salsa 101 at Nieves Latin Dance Studio, and Circle Line Sightseeing cruises. Filter the map by cost to find free or cheap dates.
 
 ### Where can I find a free public restroom in NYC?
 
@@ -69,7 +69,7 @@ Yes, for now. The City Council voted on Oct 22, 2026 to end horse-drawn carriage
 
 ### What are indoor things to do in NYC on a rainy or cold day?
 
-Use the Indoor filter on the NYC Spots map: 310 places are fully or partly indoors, such as museums, shows, food halls, classes, and games. The Outdoor filter shows 172 places, such as parks, views, and walks.
+Use the Indoor filter on the NYC Spots map: 310 places are fully or partly indoors, such as museums, shows, food halls, classes, and games. The Outdoor filter shows 175 places, such as parks, views, and walks.
 
 ### When are the next fireworks and parades in NYC?
 
